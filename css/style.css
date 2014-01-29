@@ -1,0 +1,60 @@
+/* Global */
+body { background:#ddd;	font-family: 'Open Sans', sans-serif; }
+h1 {border-bottom:5px solid rgb(190, 45, 45);}
+h2 {font-size:1.5em; font-weight:bold;}
+
+.wrapper { margin-bottom:2em;}
+.container { background:white; }
+
+/* Header */
+.navbar-right .active { background:white; border-bottom:3px solid rgb(190, 45, 45);}
+.navbar-right .active a {color:black;}
+.navbar-right .active:hover a {background:white; border:none;}
+.navbar-right a:hover { color:black;border-bottom:3px solid rgb(143, 43, 43);}
+.navbar-right a { color: white; }
+
+.navbar-icons { font-size:1.5em; }
+
+.search { margin-bottom:1.5em;}
+
+.header {
+	background: url('../img/header.png') #524A6F right center no-repeat; /* Isle of Man landscapes for photo*/	
+	color: white;
+}
+
+.btn {
+	color: white;
+	background-color: black;
+	border-color: #ccc;
+}
+
+/* Footer */
+.footer-links { margin-bottom:2em;}
+
+/* Task list (Featured & Most Active) */
+.task-list li a {
+	font-size:1.5em;
+	margin:0.3em;
+	margin-bottom:0.5em;
+	padding:0.5em;	
+	border-radius: 4px;
+	background:#428bca;	
+}
+.task-list li {margin:1.25em 0; padding:0;}
+.task-list li a { color:white;}
+.task-list li a:hover { text-decoration:none; background:#3B6386; }
+.task-list>li a:first-child { padding-left: 0.5em; }
+
+/* Subcategories list*/
+.subcategories-list { font-size:1.3em; }
+.subcategories-list li { border-right:1px solid black; padding-left:0; margin-bottom:0.4em;}
+.subcategories-list>li:last-child { border-right:none;}
+.subcategories-list li a.view-all { color:orange;}
+
+/* News list*/
+.news img { width: 100%;}
+.news .col-md-3 {margin-top:0.5em;}
+
+.newslist {font-size:1.2em;}
+.newslist li {padding-bottom:0.5em;}
+.newslist>li:first-child {padding-left:5px;}
