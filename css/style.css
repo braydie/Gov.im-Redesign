@@ -3,6 +3,7 @@ body { background:#ddd;	font-family: 'Open Sans', sans-serif; }
 h1 {border-bottom:5px solid rgb(190, 45, 45);}
 h2 {font-size:1.5em; font-weight:bold;}
 
+.btn:hover { color:#818181; }
 .wrapper { margin-bottom:2em;}
 .container { background:white; }
 
@@ -13,7 +14,9 @@ h2 {font-size:1.5em; font-weight:bold;}
 .navbar-right a:hover { color:black;border-bottom:3px solid rgb(143, 43, 43);}
 .navbar-right a { color: white; }
 
-.navbar-icons { font-size:1.5em; }
+.navbar-icons { font-size:1.7em; }
+.navbar-icons a { color:#fff; }
+.navbar-icons a:hover { color:#818181; }
 
 .search { margin-bottom:1.5em;}
 
