@@ -41,11 +41,11 @@ h2 {font-size:1.5em; font-weight:bold;}
 	margin-bottom:0.5em;
 	padding:0.5em;	
 	border-radius: 4px;
-	background:#428bca;	
+	background:#1562A5;	
 }
 .task-list li {margin:1.25em 0; padding:0;}
 .task-list li a { color:white;}
-.task-list li a:hover { text-decoration:none; background:#3B6386; }
+.task-list li a:hover { text-decoration:none; background:#163047; }
 .task-list>li a:first-child { padding-left: 0.5em; }
 
 /* Subcategories list*/
