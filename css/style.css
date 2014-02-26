@@ -33,31 +33,3 @@ h2 {font-size:1.5em; font-weight:bold;}
 
 /* Footer */
 .footer-links { margin-bottom:2em;}
-
-/* Task list (Featured & Most Active) */
-.task-list li a {
-	font-size:1.5em;
-	margin:0.3em;
-	margin-bottom:0.5em;
-	padding:0.5em;	
-	border-radius: 4px;
-	background:#1562A5;	
-}
-.task-list li {margin:1.25em 0; padding:0;}
-.task-list li a { color:white;}
-.task-list li a:hover { text-decoration:none; background:#163047; }
-.task-list>li a:first-child { padding-left: 0.5em; }
-
-/* Subcategories list*/
-.subcategories-list { font-size:1.3em; }
-.subcategories-list li { border-right:1px solid black; padding-left:0; margin-bottom:0.4em;}
-.subcategories-list>li:last-child { border-right:none;}
-.subcategories-list li a.view-all { color:orange;}
-
-/* News list*/
-.news img { width: 100%;}
-.news .col-md-3 {margin-top:0.5em;}
-
-.newslist {font-size:1.2em;}
-.newslist li {padding-bottom:0.5em;}
-.newslist>li:first-child {padding-left:5px;}
